@@ -1,0 +1,59 @@
+body {
+    font-family: garamond;
+  }
+  
+  h1 { 
+    margin: 0;
+    font-family: garamond;
+    text-align: center;
+    font-size: 90px;
+    color:#990033;
+  }
+  ul {
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li{
+    float:left;
+    margin: auto;
+  }
+  
+  li a{
+    float: left;
+    color: #00001a;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: garamond;
+    font-size:20px;
+    margin: auto;
+  }
+  
+  li a:hover {
+    background-color: #990033;
+    color: white;
+  }
+  
+  div {
+    text-align: center;
+    font-size: 20px;
+    width: 75%;
+    margin: auto;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
